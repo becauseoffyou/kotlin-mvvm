@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">User github search</string>
     <string name="michale">Michael</string>
+    <string name="michael">Michael Strong</string>
+    <string name="michaelstro">michaelstrong</string>
+    <string name="android_eng">Android Engineer, learn is my \npassion</string>
 </resources>

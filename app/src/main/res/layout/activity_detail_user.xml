@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailUserActivity"
+    android:paddingTop="20sp">
+
+    <ImageView
+        android:id="@+id/imgprofil"
+        android:layout_width="64dp"
+        android:layout_height="101.33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-10dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="11dp"
+        android:gravity="top"
+        android:text="@string/michael"
+        android:textAppearance="@style/michael_str" />
+
+    <TextView
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:gravity="top"
+        android:text="@string/michaelstro"
+        android:textAppearance="@style/michaelstro" />
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="76dp"
+        android:gravity="top"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/android_eng"
+        android:textAppearance="@style/android_eng"
+        android:translationY="-2.3sp" />
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="363dp"
+        android:layout_height="0.3dp"
+        android:background="#FF808080"
+        android:layout_below="@id/bio"/>
+
+</RelativeLayout>

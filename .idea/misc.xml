@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/drawable/google_pixe.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/drawable/image_1.xml" value="0.146875" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/drawable/line_2.xml" value="0.146875" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/drawable/rectangle_2.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/layout/activity_detail_user.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/layout/item_user.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/drawable/bgprofil.xml" value="0.3203125" />
         <entry key="app/src/main/res/layout/item_user.xml" value="0.33" />
       </map>
