@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var viewModel : MViewModel
     private lateinit var adapter : MainAdapterUser
 
-
-
     @SuppressLint("NotifyDataSetChanged")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

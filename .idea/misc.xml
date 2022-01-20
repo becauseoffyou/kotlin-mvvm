@@ -11,6 +11,9 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/kotlin-mvvm/app/src/main/res/layout/item_user.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/drawable/bgprofil.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_detail_user.xml" value="0.296195652173913" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.296195652173913" />
+        <entry key="app/src/main/res/layout/item_repo.xml" value="0.296195652173913" />
         <entry key="app/src/main/res/layout/item_user.xml" value="0.33" />
       </map>
     </option>

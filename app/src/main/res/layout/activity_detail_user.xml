@@ -26,7 +26,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="11dp"
         android:gravity="top"
-        android:text="@string/michael"
+        android:hint="@string/michael"
         android:textAppearance="@style/michael_str" />
 
     <TextView
@@ -38,7 +38,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="40dp"
         android:gravity="top"
-        android:text="@string/michaelstro"
+        android:hint="@string/michaelstro"
         android:textAppearance="@style/michaelstro" />
 
     <TextView
@@ -51,16 +51,24 @@
         android:layout_marginTop="76dp"
         android:gravity="top"
         android:lineSpacingExtra="5sp"
-        android:text="@string/android_eng"
+        android:hint="@string/android_eng"
         android:textAppearance="@style/android_eng"
         android:translationY="-2.3sp" />
 
     <View
+        android:id="@+id/view1"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:layout_width="363dp"
         android:layout_height="0.3dp"
         android:background="#FF808080"
         android:layout_below="@id/bio"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvRepo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_marginTop="16dp" />
 
 </RelativeLayout>

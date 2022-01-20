@@ -4,4 +4,9 @@
     <string name="michael">Michael Strong</string>
     <string name="michaelstro">michaelstrong</string>
     <string name="android_eng">Android Engineer, learn is my \npassion</string>
+    <string name="android_cle">Android-CleanArchitecture</string>
+    <string name="this_is_a_s">This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob\'s clean architecture approach.
+    </string>
+
+
 </resources>
