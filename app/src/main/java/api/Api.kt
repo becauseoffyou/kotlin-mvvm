@@ -9,19 +9,19 @@ import retrofit2.http.Query
 
 interface Api {
     @GET( "search/users?")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun ambilDataUser(
         @Query(value = "q") query: String
         ): Call<UserResponse>
 
     @GET("users/{username}")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun ambilDetailUser(
         @Path(value = "username") username: String
     ): Call<UserDetail>
 
     @GET("users/{username}/repos")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun ambilRepoUser(
         @Path(value = "username") username: String
     ): Call<ArrayList<UserRepo>>
